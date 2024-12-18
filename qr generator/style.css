@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+TZ+Guides&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(6, 88, 129);
+}
+.container {
+  
+  width: 500px;
+  border: 1px solid black;
+  background-color: #fff;
+  font-size: 1.4vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px 35px;
+}
+
+.container p {
+  background-color: white;
+  font-weight: 700;
+  font-size: 1.7vw;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.container input {
+  background-color: #fff;
+   width: 100%;
+   height: 50px;
+  border: 0.1vh solid black;
+  margin: 10px 0 20px;
+  border-radius: 1vw;
+  outline: 0;
+  padding: 2px;
+}
+
+button {
+  width: 100%;
+ height: 50px;
+  font-size: 1vw;
+  font-weight: 600;
+  color: white;
+  background-color: #0659b2;
+  border: none; 
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#qr-box {
+  background-color: white;
+  height: 9vh;
+  width: 6vw;
+  margin-left: 9vw;
+}
+
+#qr-box img {
+  padding: 0.8vh;
+  background-color: #fff;
+  z-index: 999;
+  
+}
